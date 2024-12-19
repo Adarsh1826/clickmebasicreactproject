@@ -1,8 +1,83 @@
-# React + Vite
+# Click Counter and Remover
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that demonstrates a counter with increment and decrement functionality. The counter has specific bounds: it cannot go below 0 or above 20.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Increment the counter (up to a maximum of 20).
+- Decrement the counter (down to a minimum of 0).
+- Displays the current counter value on the buttons.
+
+## Technologies Used
+
+- React (with hooks like `useState`)
+- JavaScript
+- CSS
+
+## Prerequisites
+
+Before running the application, ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+## Getting Started
+
+Follow the steps below to run the application locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd <project-directory>
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and navigate to:
+
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+- Click the **Increment Counter** button to increase the counter value by 1 (up to a maximum of 20).
+- Click the **Decrement Counter** button to decrease the counter value by 1 (down to a minimum of 0).
+
+## Folder Structure
+
+```
+.
+|-- src
+|   |-- App.css        # Styling for the app
+|   |-- App.js         # Main application logic
+|   |-- index.js       # Entry point
+|-- public
+|-- package.json       # Project dependencies and scripts
+|-- README.md          # Project documentation
+```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html) for guidance on building React applications.
+
